@@ -165,3 +165,17 @@ main section{
   margin-right: 30px;
   gap: 24px;
 }
+.download-cv{
+  margin-top: 50px;
+  text-align: center;
+  padding: 130px;
+  
+}
+/* footer-style */
+
+footer{
+  display: flex;
+  margin: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
