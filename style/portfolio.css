@@ -5,6 +5,7 @@ body{
 }
 .text-primary{
   color: #fd6e0a;
+  background: #957171;
   
 }
 .btn-primary{
@@ -55,12 +56,15 @@ nav a {
 .header{
   background-color: #fff8f3;
   background-repeat: no-repeat;
-  background-position: bottom right;
-  background-image: url('../images/header_bg.png')
+  background-position: bottom right,top left;
+  background-image: url(../images/header_bg.png),url('../images/developer.png')
+  
+  
+  
   
 }
 .banner{
-  padding: 30px 30px 0px 150px;
+  padding: 30px 30px 0px 150px; 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -116,12 +120,13 @@ main section{
 }
 .skills-container{
   display: flex;
-  
   gap: 24px ;
+  
   
 }
 .skill-description{
   font-size: 20px;
+  
   justify-content: space-around;
 }
 
@@ -176,6 +181,33 @@ main section{
 footer{
   display: flex;
   margin: 100px;
-  background: #fff8f3;
+  background:rgb(30, 23, 23);
   padding: 130px 200px;
 }
+.footer-column{
+  width: 50%;
+  
+}
+.social-links a{
+  margin-right: 25px;
+  
+}
+
+.contact input[type="text"], 
+.contact input[type="email"]
+, textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
+}
+/* .section-title{
+  color: #fff;
+} */
+/* .section-description{
+  
+} */
